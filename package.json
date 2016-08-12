@@ -1,0 +1,28 @@
+{
+  "jspm": {
+    "dependencies": {
+      "angular": "github:angular/bower-angular@^1.5.8",
+      "angular-ui-router": "github:angular-ui/angular-ui-router-bower@^0.3.1",      
+      "systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@^0.5.6",
+      "text": "github:systemjs/plugin-text@^0.0.8",
+      "ts": "github:frankwallis/plugin-typescript@^4.0.5"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "devDependencies": {
+    "chokidar-socket-emitter": "^0.5.1",
+    "es6-shim": "^0.35.0",
+    "http-server": "^0.9.0",
+    "jspm": "^0.16.32",
+    "open": "0.0.5"
+  },
+  "scripts": {
+    "start": "node server",
+    "presetup": "npm install -g jspm",
+    "setup": "npm install && jspm install"
+  }
+}
